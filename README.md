@@ -1,6 +1,6 @@
-# 📊 Projeto ETL com Python
+# Projeto ETL com Python
 
-## 🧠 Descrição
+## Descrição
 
 Este projeto implementa um pipeline ETL (Extração, Transformação e Carregamento) utilizando Python.
 
@@ -8,7 +8,7 @@ Os dados são extraídos de um arquivo CSV, tratados e padronizados, e posterior
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - Pandas
@@ -16,7 +16,7 @@ Os dados são extraídos de um arquivo CSV, tratados e padronizados, e posterior
 
 ---
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 etl_projeto/
 │
 ├── data/
@@ -35,23 +35,23 @@ etl_projeto/
 
 ---
 
-## 🔄 Etapas do ETL
+## Etapas do ETL
 
-### 📥 Extração
+### Extração
 Leitura dos dados a partir de um arquivo CSV.
 
-### 🔄 Transformação
+### Transformação
 - Remoção de espaços extras
 - Padronização de nomes (letras maiúsculas)
 - Filtragem de clientes maiores de idade
 - Padronização de cidades
 
-### 📤 Carregamento
+### Carregamento
 Armazenamento dos dados tratados em um banco de dados SQLite.
 
 ---
 
-## ▶️ Como executar o projeto
+## Como executar o projeto
 
 1. Instale as dependências:
 pip install pandas
@@ -61,7 +61,7 @@ python src/main.py
 
 ---
 
-## 🗄️ Resultado
+## Resultado
 
 Os dados tratados são armazenados no banco:
 database/banco.db
@@ -71,12 +71,12 @@ clientes_tratados
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Demonstrar na prática a construção de um pipeline ETL utilizando Python, aplicando conceitos de manipulação de dados e persistência em banco de dados.
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 Luana Silvério de Farias
